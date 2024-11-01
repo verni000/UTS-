@@ -32,24 +32,24 @@ public class kalkulatorBMI {
         //kategori kesehatan dari hasil BMI
         if (jenisKelamin.equalsIgnoreCase("Pria")) {   
             if (bmi < 18.5) {
-                System.out.println("kamu berada dalam kategori kurus bagi pria");
+                System.out.println("kamu berada dalam kategori kurus bagi pria, jangan lupa makan dan ayo lebih peduli dengan dirimu, ya!");
             } else if (bmi >= 18.5 && bmi < 25.0) {
                 System.out.println("kamu berada dalam kategori normal bagi pria");
             } else if (bmi >= 25.0 && bmi < 30.0) {
                 System.out.println("kamu berada dalam kategori overweigth bagi pria");
             } else {
-                System.out.println("kamu berada dalam kategori obesitas bagi pria");
+                System.out.println("Kamu berada dalam kategori obesitas bagi pria, ayo jaga berat badanmu dan lebih peduli dengan dirimu, ya! ");
             }
         }
         else if (jenisKelamin.equalsIgnoreCase("Wanita")) {
             if (bmi < 17.5) {
-                System.out.println("kamu berada pada kategori kurus bagi wanita");
+                System.out.println("kamu berada pada kategori kurus bagi wanita, jangan lupa makan dan ayo lebih peduli dengan dirimu, ya!");
             } else if (bmi >= 17.5 && bmi < 24.0) {
                 System.out.println("kamu berada pada kategori normal bagi wanita");
             } else if (bmi >= 24.0 && bmi < 29.0) {
                 System.out.println("kamu berada pada kategori Overweight bagi wanita");
             } else {
-                System.out.println("kamu berada pada kategori Obesitas bagi wanita");
+                System.out.println("kamu berada pada kategori Obesitas bagi wanita, ayo jaga berat badanmu dan lebih peduli dengan dirimu, ya!");
             }
         }
     input.close();
